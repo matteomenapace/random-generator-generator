@@ -60,7 +60,7 @@ var json =
 editor.set(json)
 //editor.expandAll()
 
-// generate text using Tracery
+// generate text
 // using https://github.com/galaxykate/tracery
 function generate()
 {
@@ -71,6 +71,15 @@ function generate()
     $('#generated').val(generatedText)
 }
 
+// save the grammar as a JSON file
+function downloadGrammar()
+{
+    var json = JSON.stringify(editor.get(), null, 2)
+    var blob = new Blob([json], {type: 'application/json;charset=utf-8'})
+    saveAs(blob, 'grammar.json')
+}
+
 // event handlers
-$('#refresh').click(function(){ generate() })
 $(window).load(function(){ generate() })
+$('#refresh').click(function(){ generate() })
+$('#download').click(function(){ downloadGrammar() })
