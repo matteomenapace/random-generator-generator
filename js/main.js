@@ -1,4 +1,5 @@
 // create the JSON editor
+// using https://github.com/josdejong/jsoneditor
 var container = document.getElementById('editor'),
     options = {},
     editor = new JSONEditor(container, options)
@@ -30,21 +31,17 @@ var json =
 }
 editor.set(json)
 
-// generate text 
+// generate text using Tracery
+// using https://github.com/galaxykate/tracery
 function generate()
 {
     // console.log('generate!')
-    
-    var processedGrammar = tracery.createGrammar(editor.get())
-    processedGrammar.addModifiers(tracery.baseEngModifiers)
-    var generatedText = processedGrammar.flatten('#origin#')
+    var grammar = tracery.createGrammar(editor.get())
+    grammar.addModifiers(tracery.baseEngModifiers)
+    var generatedText = grammar.flatten('#origin#')
     $('#generated').val(generatedText)
 }
 
 // event handlers
 $('#refresh').click(function(){ generate() })
-
-$(window).load(function() 
-{
-	if (tracery.createGrammar) generate()
-})
+$(window).load(function(){ generate() })
