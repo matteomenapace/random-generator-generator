@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+textarea {
+   font-family: 'Roboto Mono', monospace; 
+}
+
+/* JSON editor */
+
+div.jsoneditor
+{
+    margin-top: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+div.jsoneditor-menu
+{
+    border-bottom: 1px solid #cccccc;
+    background: #cccccc;
+}
+
+.jsoneditor-schema-error, div.jsoneditor td, div.jsoneditor textarea, div.jsoneditor th, div.jsoneditor-field, div.jsoneditor-value 
+{
+/*    font-family: droid sans mono,consolas,monospace,courier new,courier,sans-serif;*/
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 1em;
+/*    color: #1A1A1A;*/
+}

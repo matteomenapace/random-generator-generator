@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Random Generator Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i|Roboto:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/jsoneditor.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/jsoneditor/jsoneditor.min.js"></script>
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/tracery.js"></script>
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <h1>Random Generator Generator</h1>
+
+        <!-- output and refresh -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="input-group">
+                  <input id="generated" type="text" class="form-control" placeholder="Your generative text will appear here...">
+                  <span class="input-group-btn">
+                    <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+                  </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- grammar editor -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="editor"></div> 
+            </div>
+        </div>  
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
