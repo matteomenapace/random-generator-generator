@@ -22,28 +22,35 @@
 
 <body>
     
-    <div class="container-fluid">
-        <h1>Random Generator Generator</h1>
-
-        <!-- output and refresh -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="input-group">
-                  <input id="generated" type="text" class="form-control" placeholder="Your generative text will appear here...">
-                  <span class="input-group-btn">
-                    <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
-                  </span>
-                </div>
-            </div>
-        </div>
-
-        <!-- grammar editor -->
-        <div class="row">
-            <div class="col-md-12">
-                <div id="editor"></div> 
-            </div>
-        </div>  
+    <div class="container">
+        <h1>The <i>random</i> generator <i>generator</i></h1>
+        <p>Hello human!</p>
+        <p>This tool helps you create <i><abbr title="A system of rules that can generate combinations of words which form grammatical sentences">generative grammars</abbr></i>.</p> 
+        <p>You can use it to make funny sentences, semi-sensical stories, abstract poetry, idea generators or whatever floats your boat :)</p>
         
+        <p><b>Start</b> by jotting down an example of the <i>thing</i> you'd like to generate</p>
+        <input type="text" class="form-control" placeholder="An evening for children to play drums together">
+        
+        <p><b>Then</b> think about the structure of that <i>thing</i> and wrap the <i>variable</i> bits with <code>#</code></p>
+        <input type="text" class="form-control" placeholder="A #something# for #someone# to #do# #something else# #somehow#">
+        
+        <p><b>Then</b> play around with the editor to add / remove / expand / tweak your grammar <i>variables</i>.</p>
+        <!-- grammar editor -->
+        <div id="editor"></div> 
+        
+        <p>Your generative <i>things</i> will appear in the box below! Click the <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> button to generate more.</p>
+        <!-- output and refresh -->        
+        <div class="input-group input-group-lg">
+          <input id="generated" type="text" class="form-control" placeholder="Your generative text will appear here...">
+          <span class="input-group-btn">
+            <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+          </span>
+        </div>
+        
+        <p><b>What next?</b> <a>Download your grammar</a> as a JSON file,  take it to the next level with the <a href="http://www.brightspiral.com/tracery/"target="_blank">Tracery visual editor</a>, or turn it into a Twitter bot with <a href="http://cheapbotsdonequick.com/"target="_blank">Cheap Bots, Done Quick!</a></p>
+        
+        <p class="text-muted">This tool uses <a href="https://github.com/galaxykate/tracery" target="_blank">Tracery</a> by <a href="http://www.galaxykate.com/" target="_blank">Kate Compton</a>, and <a href="https://github.com/josdejong/jsoneditor" target="_blank">JSONeditor</a> by <a href="http://josdejong.com/" target="_blank">Jos de Jong</a>.</p>
+
     </div>
 
     <script src="js/main.js"></script>

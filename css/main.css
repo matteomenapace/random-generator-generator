@@ -6,15 +6,15 @@ h1 {
     font-weight: bold;
 }
 
-textarea {
-   font-family: 'Roboto Mono', monospace; 
+input, .input-group {
+    margin: 0 0 10px;
 }
 
 /* JSON editor */
 
 div.jsoneditor
 {
-    margin-top: 1em;
+    margin: 10px 0;
     border: 1px solid #cccccc;
     border-radius: 4px;
 }

@@ -23,27 +23,42 @@ var json =
 { 
     'origin': 
     [
-        'this is a text', 
-        'this is #options# text', 
-        '#something else#'
+        '#something.a# for #someone# to #do# #something else# #somehow#'
     ], 
-    'options': 
+    'something': 
     [
-        'an example', 
-        'a different', 
-        'another', 
-        'a possible', 
-        'a generated', 
-        'your next'
+        'school', 
+        'game', 
+        'evening', 
+        'place'
     ], 
+    'someone': 
+    [
+        'children', 
+        'adults', 
+        'you'
+    ],
+    'do': 
+    [
+        'make', 
+        'break', 
+        'learn about'
+    ],
     'something else': 
     [
-        'this is something else',  
-        'or maybe #options# something',
-        'what about #options# question?'
+        'friends', 
+        'food', 
+        'robots'
+    ],
+    'somehow': 
+    [
+        'together',  
+        'quickly',
+        'at home'
     ] 
 }
 editor.set(json)
+//editor.expandAll()
 
 // generate text using Tracery
 // using https://github.com/galaxykate/tracery
