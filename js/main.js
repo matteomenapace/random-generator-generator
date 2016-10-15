@@ -1,7 +1,21 @@
 // create the JSON editor
 // using https://github.com/josdejong/jsoneditor
 var container = document.getElementById('editor'),
-    options = {},
+    options = {
+        // modes: ['code','tree'],
+        onEditable: function (node) {
+            switch (node.field) {
+                case 'origin':
+                    return {
+                        field: false,
+                        value: true
+                    }
+                default:
+                    return true    
+            }
+        },
+        onChange: function(){ generate() }
+    },
     editor = new JSONEditor(container, options)
 
 // set json
