@@ -1,0 +1,56 @@
+{
+  "name":"BrainyQuotes",
+  "count":17179,
+  "version":9,
+  "newdata":true,
+  "lastrunstatus":"partial",
+  "thisversionstatus":"success",
+  "thisversionrun":"Mon Oct 17 2016 20:35:45 GMT+0000 (UTC)",
+  "results":
+  {
+    "quotes":
+    [
+      {
+        "text":"Although I still have a long way to go, I would like to become the pride of Rain. When another Asian artist enters the U.S. rain. I would like him to think, 'There was an artist called Rain who succeeded in the U.S. market.",
+        "query":"rain",
+        "testCase": "testing sentence split"
+      },
+      {
+        "text":"I was told that when I'm dancing‚ I give off the feeling of a rainy day"
+      },
+      {
+        "text":"If you keep your face to the sunshine, you cannot see a shadow.",
+        "query":"face",
+        "testCase": "testing comma replacement with lower single quote"
+      },
+      {
+        "text":"Talk of joy: there may be things better than home-made face - there may be.",
+        "testCase": "testing colon replacement"
+      },
+      {
+        "text":"A face is a face",
+        "testCase": "testing 'a' replacement"
+      },
+      {
+        "text":"Bona face is free of charge",
+        "testCase": "testing 'a' replacement"
+      },
+      {
+        "text":"An face is bigger than the sum of its parts",
+        "testCase": "testing 'an' replacement"
+      },
+      {
+        "text":"I never looked at fan face, for some reason",
+        "testCase": "testing 'an' replacement"
+      },
+      {
+        "text":"These faces are going to stay and last for a long time",
+        "testCase": "testing plural replacement"
+      },
+      {
+        "text":"Interfaces you know and faces you'd rather not...",
+        "testCase": "testing plural replacement"
+      }
+    ]
+  }
+}

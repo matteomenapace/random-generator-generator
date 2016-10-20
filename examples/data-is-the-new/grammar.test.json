@@ -1,0 +1,12 @@
+{
+  "origin": [
+    "#[#setKeyword#]tweet#"
+  ],
+  "tweet": [
+    "\\#Data is the new #emoji#\n\"#quote#\""
+  ],
+  "setKeyword": 
+  [
+    "[keyword:face][emoji:😀,😁,😂,😃,😄,😅,😆,😉,😊,😋,😎,😍,😘,😗,😙,😚,🙂,🤗,🤔,😐,😑,😶,🙄,😏,😣,😥,😮,🤐,😯,😪,😫,😴,😌,🤓,😛,😜,😝,😒,😓,😔,😕,🙃,🤑,😲,☹,🙁,😖,😞,😟,😤,😢,😭,😦,😧,😨,😩,😬,😰,😱,😳,😵,😡,😠,😇,😷,🤒,🤕][quote:If you keep your data to the sunshine‚ you cannot see a shadow.,Let's data it‚ friends make life a lot more fun.,The data is the mirror of the mind‚ and eyes without speaking confess the secrets of the heart.]"
+  ]
+}

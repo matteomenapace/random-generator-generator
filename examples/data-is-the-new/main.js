@@ -18,20 +18,12 @@ var container = document.getElementById('editor'),
     },
     editor = new JSONEditor(container, options)
 
-// set json
-// a bot that rants about the weather
-var json = 
-{ 
-	"origin": ["#[#setWord#][word:#word#]tweet#"],
-	"tweet": ["\\#Data is the new #emoji#\n\"#quote#\""],
-	"setWord":
-	[
-		"[emoji:🅰,🆎,🔤,🔡][quote:My data starts where your data ends!,Thou whoreson data. Thou unnecessary data!,And when I can't fall asleep I play what I call the data game]",
-		"[emoji:📡,📶][quote:Your heart has a powerful little data,Kids have what I call a built-in hypocrisy data]" 
-	]
-}
-editor.set(json)
-//editor.expandAll()
+// get json, setup editor and generate
+$.getJSON('grammar.test.json', function(json) 
+{
+    editor.set(json)
+    generate()
+})
 
 // generate text
 // using https://github.com/galaxykate/tracery
@@ -46,5 +38,4 @@ function generate()
 }
 
 // event handlers
-$(window).load(function(){ generate() })
 $('#refresh').click(function(){ generate() })
