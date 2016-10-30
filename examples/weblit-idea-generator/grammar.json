@@ -1,6 +1,54 @@
 { 
     "origin": 
     [
-        "A workshop #doing# #something#, #somehow#"
+        "A workshop for #who#: #hack# #game.a# game, so that players have to #verb# and are rewarded if they #verb#"
+    ],
+    "who":
+    [
+        "children",
+        "teenagers",
+        "young people",
+        "adults"
+    ],
+    "hack":
+    [
+        "mod", "remix", "hack", "prototype", "re-invent", "change"
+    ],
+    "game":
+    [
+        "board",
+        "card",
+        "shooter",
+        "puzzle",
+        "adventure",
+        "simulation",
+        "ball",
+        "strategy board",
+        "arcade",
+        "tower defense",
+        "maze",
+        "first-person shooter",
+        "racing",
+        "strategy",
+        "trading",
+        "platform",
+        "action",
+        "rhythm"
+    ],
+    "verb":
+    [
+        "#write#", "#read#", "#participate#"
+    ],
+    "write":
+    [
+        "design", "code", "compose", "revise", "remix"
+    ],
+    "read":
+    [
+        "evaluate", "synthesize", "navigate", "search"
+    ],
+    "participate":
+    [
+        "connect", "protect", "practice openly", "contribute", "share"
     ]
 }
