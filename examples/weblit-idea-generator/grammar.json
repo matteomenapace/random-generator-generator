@@ -1,7 +1,7 @@
 { 
     "origin": 
     [
-        "A workshop for #who#: #hack# #game.a# game, so that players have to #verb# and are rewarded if they #verb#"
+        "A workshop for #who#: #hack# #game.a# game, so that players have to '#verb#' and are rewarded if they '#verb#'!"
     ],
     "who":
     [
