@@ -23,14 +23,16 @@
         <div class="container">
             <h1>The game hacking ideas generator</h1>
             <p>Hello human!</p>
-            <p>Looking for ideas for your next Web Literacy <i>hacktivity</i>? Click the <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> button to generate some.</p>
+            <p>Looking for ideas for your next <b>Web Literacy <i>hacktivity</i></b>? Click the <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> button to generate some.</p>
             <!-- output and refresh -->        
             <div class="input-group input-group-lg">
-              <input id="generated" type="text" class="form-control" placeholder="Your generative text will appear here...">
-              <span class="input-group-btn">
-                <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
-              </span>
+                <textarea id="generated" class="form-control custom-control" rows="3" style="resize:none;min-height:7rem;"></textarea> 
+                <span id="refresh" class="input-group-addon btn btn-default">
+                    <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                </span>
             </div> 
+            <p>You can find game examples and inspiration <a href="https://boardgamegeek.com/" target="_blank">here</a> and <a href="http://boardgames.stackexchange.com/" target="_blank">here</a>.</p>
+            <p>You can <i>hack</i> the generator source below :)</p>
             <div id="editor"></div>    
         </div>
         <script src="../main.js"></script>
