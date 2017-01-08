@@ -1,0 +1,31 @@
+{
+    "origin":
+    [
+        "Describe how #user.a# interacts with a computer system through a combination of #sense# and #sense# to #achieveGoal#"
+    ],
+    "user":
+    [
+        "novice user",
+        "expert user",
+        "impaired user",
+        "child",
+        "old person"
+    ],
+    "achieveGoal":
+    [
+        "socialise",
+        "shop",
+        "learn",
+        "play",
+        "communicate",
+        "work"
+    ],
+    "sense":
+    [
+        "sight",
+        "touch",
+        "hearing",
+        "taste",
+        "smell"
+    ]
+}
