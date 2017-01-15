@@ -1,0 +1,45 @@
+{
+  "origin":
+  [
+    "An exhibit for '#who#' to interact with #what# through #how#"
+  ],
+  "who":
+  [
+    "Fashion Young day-trip visitors",
+    "Trendy Parent day-trip visitors",
+    "Premium Mid Life Independents day-trip visitors",
+    "Explore and Discover day-trip visitors",
+    "High Culture Vultures day-trip visitors",
+    "Broadening Horizons day-trip visitors",
+    "Physical Comfort Zone day-trip visitors",
+    "Attic Authentics day-trip visitors",
+    "Culture Focus tourists",
+    "Sightseers tourists",
+    "Activity Seekers tourists",
+    "Maritime interest visitors",
+    "Astronomy interest visitors",
+    "Seas, ships, stars and time visitors"
+  ],
+  "how":
+  [
+    "exploration",
+    "making",
+    "reading",
+    "stories",
+    "graphs",
+    "videos",
+    "timelines",
+    "a game"
+  ],
+  "what":
+  [
+    "a #size# collection of maps&charts",
+    "a single map",
+    "a single chart"
+  ],
+  "size":
+  [
+    "small",
+    "broad"
+  ]
+}
