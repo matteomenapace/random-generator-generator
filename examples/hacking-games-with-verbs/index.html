@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Games with issues</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i|Roboto:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/jsoneditor.css">
+        <link rel="stylesheet" href="../../css/main.css">
+
+        <script src="../../js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="../../js/jsoneditor.min.js"></script>
+        <script src="../../js/filesaver.min.js"></script>
+        <script src="../../js/jquery-1.11.2.min.js"></script>
+        <script src="../../js/tracery.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hello game hacker 👾</h1>
+            <p>Click the <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> button to get your combo of <b>issue</b> and <b>game</b> for the <a href="https://github.com/matteomenapace/hacking-games-with-verbs/blob/ada2017/presentation.md#your-turn" target="_blank">hacking games with verbs workshop</a>️.</p>
+            <!-- output and refresh -->
+            <div class="input-group input-group-lg">
+              <input id="generated" type="text" class="form-control" placeholder="Your generative text will appear here...">
+              <span class="input-group-btn">
+                <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+              </span>
+            </div>
+            <div id="editor"></div>
+            <h2>Then head back to the workshop page and <a href="https://github.com/matteomenapace/hacking-games-with-verbs/blob/ada2017/presentation.md#your-turn" target="_blank">follow the instructions</a>!</h2>
+        </div>
+        <script src="../main.js"></script>
+    </body>
+</html>

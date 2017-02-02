@@ -1,0 +1,27 @@
+{
+  "origin":
+  [
+    "Redesign #game# so that it's about #issue#"
+  ],
+  "game":
+  [
+    "Super Mario Bros",
+    "Lemmings",
+    "Bomberman",
+    "Frogger",
+    "Pac-Man",
+    "Space Invaders"
+  ],
+  "issue":
+  [
+    "the economy",
+    "the environment",
+    "human rights",
+    "foreign affairs",
+    "security",
+    "technology",
+    "digital literacy",
+    "power",
+    "education"
+  ]
+}
