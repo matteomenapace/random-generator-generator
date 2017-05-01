@@ -1,0 +1,57 @@
+{
+  "origin":
+  [
+    "I will design&prototype #object.a# that helps #people# #goal#"
+  ],
+  "object":
+  [
+    "app",
+    "website",
+    "game",
+    "browser plugin",
+    "bot",
+    "game"
+  ],
+  "goal":
+  [
+    "become aware of filtering algorithms",
+    "become aware of the bubbles that filtering algorithms generate",
+    "understand how filter bubbles work",
+    "understand how confirmation bias works",
+    "reflect on the impact of filter bubbles on their personal experiences",
+    "change their media consumption habits",
+    "burst some of their filter bubbles"
+  ],
+  "people":
+  [
+    "#age# people",
+    "#age# #gender#",
+    "#platform# users"
+  ],
+  "age":
+  [
+    "young",
+    "old",
+    "middle-aged",
+    "teenage",
+    "Generation Z",
+    "Millenial",
+    "Generation X",
+    "Baby Boomer"
+  ],
+  "gender":
+  [
+    "men",
+    "women",
+    "people"
+  ],
+  "platform":
+  [
+    "Facebook",
+    "Instagram",
+    "Youtube",
+    "Google",
+    "Twitter",
+    "Snapchat"
+  ]
+}
