@@ -1,0 +1,109 @@
+{
+  "origin": [
+    "How might we #action# #object# for #audience#?",
+    "How might we #action# #object# through #tactic#?"
+  ],
+  "action": [
+    "develop",
+    "celebrate",
+    "expand",
+    "decolonise",
+    "archive",
+    "collect",
+    "enrich",
+    "promote",
+    "diversify",
+    "increase",
+    "reduce",
+    "future-proof",
+    "sustain",
+    "fund",
+    "reach",
+    "operate",
+    "engage",
+    "trade",
+    "share",
+    "acquire",
+    "attract",
+    "build",
+    "restore",
+    "catalyse",
+    "connect",
+    "question",
+    "rethink",
+    "explore",
+    "provoke",
+    "shape",
+    "transform",
+    "safeguard",
+    "deepen the relevance of"
+  ],
+  "object": [
+    "the museum",
+    "corporate partnerships",
+    "creativity",
+    "British values",
+    "design",
+    "the future",
+    "craft",
+    "performance",
+    "art",
+    "knowledge",
+    "research",
+    "creative practice",
+    "technology",
+    "ceramics",
+    "sculpture",
+    "metalwork",
+    "digital design",
+    "politics",
+    "debate",
+    "conversations",
+    "global challenges",
+    "architecture",
+    "relationships",
+    "running costs"
+  ],
+  "tactic": [
+    "paid exhibitions",
+    "free events",
+    "government funding",
+    "outsourcing",
+    "corporate partnerships"
+  ],
+  "audience": [
+    "families",
+    "millenials",
+    "children",
+    "adults",
+    "schools",
+    "members",
+    "mums",
+    "young professionals",
+    "retired women",
+    "the creative economy",
+    "the knowledge economy",
+    "creative practitioners",
+    "#staff#",
+    "donors",
+    "philantropists",
+    "#visitor#"
+  ],
+  "staff":
+  [
+    "curators",
+    "researchers",
+    "shop assistants",
+    "contractors",
+    "volunteers"
+  ],
+  "visitor":
+  [
+    "international visitors",
+    "local visitors"
+  ],
+  "theme": [
+    "social housing",
+    "food systems"
+  ]
+}
