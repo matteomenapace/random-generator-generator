@@ -22,20 +22,23 @@
     <body>
         <div class="container">
             <h1>Hello aspiring Museum Executive</h1>
-            <p>Click the <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> button to get strategic inspiration.
+            <p>Tap <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button> to get strategic inspiration.
               <!-- for  your combo of <b>issue</b> and <b>game</b> for the <a href="https://github.com/matteomenapace/hacking-games-with-verbs/blob/ada2017/presentation.md#your-turn" target="_blank">hacking games with verbs workshop</a>️. -->
 
             </p>
             <!-- output and refresh -->
-            <div class="input-group input-group-lg">
-              <!-- <textarea id="generated"></textarea> -->
+            <div class="form-group">
+              <textarea id="generated" class="form-control" rows="3" style="font-size:150%;"></textarea>
+            </div>
+
+            <!-- <div class="input-group input-group-lg">
               <span class="input-group-btn">
                 <button type="button" id="refresh" class="btn btn-default"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
               </span>
               <input id="generated" type="text" class="form-control" placeholder="Your randomly generated strategy will appear here...">
-            </div>
-            <div id="editor"></div>
-            <!-- <h2>Then head back to the workshop page and <a href="https://github.com/matteomenapace/hacking-games-with-verbs/blob/ada2017/presentation.md#your-turn" target="_blank">follow the instructions</a>!</h2> -->
+            </div> -->
+
+            <div id="editor" class="hidden-xs"></div>
         </div>
         <script src="../main.js"></script>
     </body>
