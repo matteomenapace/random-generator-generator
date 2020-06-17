@@ -1,0 +1,104 @@
+{
+  "origin":
+  [
+    "#gain/lose# #quantity# #resource#",
+    "#increase/decrease# #attribute# by #quantity#",
+    "Cards with a #tag# tag cost –#quantity# #currency#",
+    "Whenever you #whenever#",
+    "Spend #resource# to #increase/decrease# #resource#",
+    "Spend #expenditure# to"
+  ],
+  "expenditure": [
+    "#quantity# #currency#",
+    "#quantity# Financial Capital and #quantity# Political Power"
+  ],
+  "whenever": [
+    "do research",
+    "play a card with tag #tag#",
+    "play an event",
+    "discard a card",
+    "do standard action #standard_action#",
+    "generate energy (emissions step)"
+  ],
+  "standard_action": [
+    "Build #energy# Plant",
+    "Decommission #energy# Plant",
+    "Buy or Sell Energy",
+    "Exchange cards"
+  ],
+  "gain/lose":[
+    "Gain",
+    "Lose"
+  ],
+  "increase/decrease": [
+    "Increase",
+    "Decrease"
+  ],
+  "quantity": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "currency":
+  [
+    "Financial Capital",
+    "Political Power"
+  ],
+  "energy": [
+    "Clean Energy",
+    "Dirty Energy"
+  ],
+  "resource": [
+    "#currency#",
+    "#currency#",
+    "#energy#",
+    "#energy#",
+    "Cards",
+    "Carbon",
+    "Trees",
+    "Temperature"
+  ],
+  "attribute": [
+    "Financial Capital Generation",
+    "Political Power Generation",
+    "Resilience",
+    "Dirty Energy Generation",
+    "Clean Energy Generation",
+    "Carbon Generation",
+    "Dirty Energy Demand",
+    "Total Energy Demand",
+    "Energy Demand Growth",
+    "Financial Capital Growth",
+    "Clean Energy Plant Cost",
+    "Dirty Energy Plant Cost"
+  ],
+  "tag":[
+    "solar",
+    "wind",
+    "nuclear",
+    "geothermal",
+    "hydro",
+    "storage",
+    "synthetic fuels",
+    "carbon capture",
+    "sequestration",
+    "biofuel",
+    "transportation",
+    "coal",
+    "oil",
+    "methane",
+    "manufacturing",
+    "efficiency",
+    "infrastructure",
+    "social",
+    "biodiversity"
+  ],
+  "cube": [
+    "Research Funding",
+    "Synthetic Fuel",
+    "Education"
+  ]
+}
